@@ -151,22 +151,22 @@ core:
             body: 'Hey {username} !\n\nBirisi (umarım sensindir!) bu e-posta hseabı ile {forum} sitesine kaydoldu.\n\n Bu sen isen, hesabını aktifleştirmek için aşağıdaki bağlantıyı tıkla: \n {url} \n \nEğer sen kaydolmadıysan, bu e-postayı dikkate alma. \n'
             subject: 'Yeni Hesabını Etkinleştir'
         confirm_email:
-            body: 'Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabının e-posta adresini değiştirdi.\n\n Bu sen isen, e-postanı doğrulamak için aşağıdaki bağlantıyı tıkla: \n {url} \n \n Şifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma. \n'
+            body: 'Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabının e-posta adresini değiştirdi.\n\n Bu sen isen, e-postanı doğrulamak için aşağıdaki bağlantıyı tıkla: \n {url} \n \n Parolanı değiştirmek istemiyorsan, bu e-postayı dikkate alma. \n'
             subject: 'Yeni E-posta Adresini Doğrula'
         reset_password:
-            body: 'Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabın için şifre sıfırlama talebinde bulundu.\n\n Bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıyı tıkla: \n {url} \n \n Şifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma; hiçbir şey olmayacak. \n'
+            body: 'Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabın için parola sıfırlama talebinde bulundu.\n\n Bu sen isen, parolanı sıfırlamak için aşağıdaki bağlantıyı tıkla: \n {url} \n \n Parolanı değiştirmek istemiyorsan, bu e-postayı dikkate alma; hiçbir şey olmayacak. \n'
             subject: '=> core.ref.reset_your_password'
     forum:
         change_email:
             confirm_password_placeholder: '=> core.ref.confirm_password'
             confirmation_message: '=> core.ref.confirmation_email_sent'
             dismiss_button: '=> core.ref.okay'
-            incorrect_password_message: 'Girdiğiniz şifre yanlış.'
+            incorrect_password_message: 'Girdiğiniz parola yanlış.'
             submit_button: '=> core.ref.save_changes'
             title: '=> core.ref.change_email'
         change_password:
-            send_button: 'Şifre sıfırlama e-postası gönder'
-            text: 'Aşağıdaki butona tıklayın ve şifrenizi değiştirmek için e-postanızı kontrol edin.'
+            send_button: 'Parola sıfırlama e-postası gönder'
+            text: 'Aşağıdaki butona tıklayın ve parolanızı değiştirmek için e-postanızı kontrol edin.'
             title: '=> core.ref.change_password'
         composer_discussion:
             body_placeholder: 'Bir gönderi yaz...'
@@ -213,7 +213,7 @@ core:
             groups_heading: Gruplar
             password_heading: '=> core.ref.password'
             password_label: '=> core.ref.password'
-            set_password_label: 'Yeni şifre ayarla'
+            set_password_label: 'Yeni parola ayarla'
             submit_button: '=> core.ref.save_changes'
             title: 'Kullanıcıyı Düzenle'
             username_heading: '=> core.ref.username'
@@ -221,11 +221,11 @@ core:
         forgot_password:
             dismiss_button: '=> core.ref.okay'
             email_placeholder: '=> core.ref.email'
-            email_sent_message: 'Şifrenizi sıfırlamak için bir bağlantı içeren bir e-posta gönderdik. Bir veya iki dakika içinde almazsanız istenmeyen klasörünüzü kontrol edin.'
+            email_sent_message: 'Parolanızı sıfırlamak için bir bağlantı içeren bir e-posta gönderdik. Bir veya iki dakika içinde almazsanız istenmeyen klasörünüzü kontrol edin.'
             not_found_message: 'Bu e-posta adresine kayıtlı kullanıcı yok.'
-            submit_button: 'Şifremi Sıfırla'
-            text: 'E-posta adresinizi girin ve size şifre sıfırlama bağlantısı göndereceğiz.'
-            title: 'Şifremi Unuttum'
+            submit_button: 'Parolamı Sıfırla'
+            text: 'E-posta adresinizi girin ve size parola sıfırlama bağlantısı göndereceğiz.'
+            title: 'Parolamı Unuttum'
         header:
             admin_button: Yönetim
             back_to_index_tooltip: 'Tartışma Listesine Dön'
@@ -249,7 +249,7 @@ core:
             refresh_tooltip: Yenile
             start_discussion_button: '=> core.ref.start_a_discussion'
         log_in:
-            forgot_password_link: 'Şifreni mi unuttun?'
+            forgot_password_link: 'Parolanı mı unuttun?'
             invalid_login_message: 'Giriş bilgilerin hatalıydı.'
             password_placeholder: '=> core.ref.password'
             remember_me_label: 'Beni Hatırla'
@@ -360,9 +360,9 @@ core:
     ref:
         all_discussions: 'Tüm Tartışmalar'
         change_email: 'E-posta Değiştir'
-        change_password: 'Şifre Değiştir'
+        change_password: 'Parola Değiştir'
         color: Renk
-        confirm_password: 'Şifreyi Onayla'
+        confirm_password: 'Parolayı Onayla'
         confirmation_email_sent: '{email} adresine bir onay e-postası gönderdik. Yakında gelmezse, spam klasörünü kontrol et.'
         custom_footer_text: 'Sayfanın en altında görülecek HTML kodunu ekleyin.'
         custom_footer_title: 'Özel Altbilgiyi Düzenle'
@@ -382,13 +382,13 @@ core:
         next_page: 'Sonraki Sayfa'
         notifications: Bildirimler
         okay: Tamam
-        password: Şifre
+        password: Parola
         posts: Gönderiler
         previous_page: 'Önceki Sayfa'
         remove: Kaldır
         rename: 'Yeniden Adlandır'
         reply: Yanıtla
-        reset_your_password: 'Şifreni Sıfırla'
+        reset_your_password: 'Parolanı Sıfırla'
         restore: 'Geri Yükle'
         save_changes: 'Değişiklikleri Kaydet'
         settings: Ayarlar
@@ -416,7 +416,7 @@ core:
             log_out_confirmation: '{forum} oturumundan çıkış yapmak istediğine emin misin?'
             title: '=> core.ref.log_out'
         reset_password:
-            confirm_password_label: 'Yeni Şifreyi Onayla'
-            new_password_label: 'Yeni Şifre'
+            confirm_password_label: 'Yeni Parolayı Onayla'
+            new_password_label: 'Yeni Parola'
             submit_button: '=> core.ref.save_changes'
             title: '=> core.ref.reset_your_password'

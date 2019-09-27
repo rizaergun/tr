@@ -12,7 +12,7 @@ validation:
         email: e-posta
         name_plural: 'çoğul isim'
         name_singular: 'tekil isim'
-        password: şifre
+        password: parola
         tag_count_primary: 'birincil etiket sayısı'
         tag_count_secondary: 'ikincil etiket sayısı'
         title: başlık
